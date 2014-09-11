@@ -1,0 +1,28 @@
+{
+    "name": "njax-app",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "async": "*",
+        "express":"*",
+        "underscore": "*",
+        "mongoose": "*",
+        "errorhandler": "*",
+        "markdown": "*",
+        "connect-multiparty": "*",
+        "aws-lib": "*",
+        "socket.io": "*",
+        "serve-static":"*",
+        "body-parser":"*",
+        "morgan":"*",
+        "hjs":"*",
+        "mkdirp":"*",
+        "aws-sdk":"*",
+        "express-session":"*",
+        "cookie-parser":"*",
+        "request":"*"
+    }
+}
