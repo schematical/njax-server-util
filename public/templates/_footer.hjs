@@ -1,0 +1,8 @@
+
+</div>
+    {{> _theme_footer}}
+    <script>
+        window.njax_bootstrap = {{{ _njax_bootstrap}}};
+    </script>
+</body>
+</html>

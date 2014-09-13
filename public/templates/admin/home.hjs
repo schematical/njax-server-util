@@ -1,0 +1,10 @@
+{{> _header }}
+
+{{> _navbar }}
+<div class='row'>
+    <div class='col-md-4 col-md-offset-4'>
+        <a class="btn btn-default" href="./accounts">Accounts</a>
+
+    </div>
+</div>
+{{> _footer }}
