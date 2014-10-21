@@ -2,7 +2,15 @@
 </div>
     {{> _theme_footer}}
     <script>
-        window.njax_bootstrap = {{{ _njax_bootstrap}}};
+       var njax_bootstrap = {{{ _njax_bootstrap}}};
+       window.njax_bootstrap = njax_bootstrap;
+       var njaxBootstrapService = angular.module('njax.bootstrap', []);
+       njaxBootstrapService.factory(
+            'NJaxBootstrap',
+            [function(){
+                return njax_bootstrap;
+            }]
+       );
     </script>
 </body>
 </html>
