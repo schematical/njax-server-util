@@ -21,7 +21,7 @@
         "hjs":"*",
         "mkdirp":"*",
         "aws-sdk":"*",
-        "express-session":"*",
+        "on-headers":"*",
         "cookie-parser":"*",
         "request":"*"
     }
