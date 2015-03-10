@@ -23,7 +23,8 @@
         "aws-sdk":"*",
         "on-headers":"*",
         "cookie-parser":"*",
-        "request":"*"
+        "request":"*",
+        "debug":"*"
 
     }
 }
