@@ -1,0 +1,7 @@
+var njaxServices = angular.module('njax', []);
+njaxServices.factory(
+'NJaxConfig',
+['NJaxBuilder', function(NJaxBuilder){
+    return NJaxBuilder.build({{{ njax_config_json }}});
+}]
+);
