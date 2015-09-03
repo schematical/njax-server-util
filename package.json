@@ -1,30 +1,30 @@
 {
-    "name": "njax-util",
-    "version": "0.0.4",
-    "private": false,
-    "scripts": {
-        "start": "node app.js"
-    },
-    "dependencies": {
-        "async": "*",
-        "express":"*",
-        "underscore": "*",
-        "mongoose": "*",
-        "errorhandler": "*",
-        "markdown": "*",
-        "connect-multiparty": "*",
-        "aws-lib": "*",
-        "socket.io": "*",
-        "serve-static":"*",
-        "body-parser":"*",
-        "morgan":"*",
-        "hjs":"*",
-        "mkdirp":"*",
-        "aws-sdk":"*",
-        "on-headers":"*",
-        "cookie-parser":"*",
-        "request":"*",
-        "debug":"*"
-
-    }
+  "name": "njax-util",
+  "version": "0.0.4",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "aws-lib": "*",
+    "aws-sdk": "*",
+    "body-parser": "*",
+    "connect-multiparty": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "errorhandler": "*",
+    "express": "*",
+    "hjs": "*",
+    "lodash": "^3.10.1",
+    "markdown": "*",
+    "mkdirp": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "on-headers": "*",
+    "request": "*",
+    "serve-static": "*",
+    "socket.io": "*",
+    "underscore": "*"
+  }
 }

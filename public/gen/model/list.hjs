@@ -1,0 +1,32 @@
+{{> _header }}
+
+{{> _navbar }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            {{> _<%= _model.name %>_edit_form }}
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+            <table class="table">
+                <tr>
+                    <% for(var name in _model.fields){  %>
+                        <% if(_model.fields[name].type == 'md'){ %>
+                            <th>
+                                <%= name %>
+                            </th>
+                        <% }else{ %>
+                            <th>
+                                <%= name %>
+                            </th>
+                        <% } %>
+                    <% } %>
+                </tr>
+                {{# <%= _model.name %>s }}
+                  {{> _<%= _model.name %>_list_single }}
+                {{/ <%= _model.name %>s }}
+            </table>
+        </div>
+    </div>
+</div>
+{{> _footer }}
+

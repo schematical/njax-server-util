@@ -1,0 +1,19 @@
+{{> _header }}
+{{> _navbar }}
+<div class="page-header">
+    <h1>{{ <%= _model.name %>.name }}<small>{{{ <%= _model.name %>.desc }}}</small></h1>
+</div>
+<% for(var name in _model.fields){  %>
+    <h3><%= _.capitalize(name) %></h3>
+    <% if(_model.fields[name].type == 'md'){ %>
+        {{{ <%= _model.name %>.<%= name %>_rendered }}}
+    <% }else if(_model.fields[name].type == 's3-asset'){ %>
+        <img src="{{{ <%= _model.name %>.<%= name %>_s3.url }}}" />
+    <% } else { %>
+        {{ <%= _model.name %>.<%= name %> }}
+    <% } %>
+<% } %>
+<a class='btn btn-default btn-sm' href='{{ <%= _model.name %>.uri }}/edit'>
+    Edit
+</a>
+{{> _footer }}

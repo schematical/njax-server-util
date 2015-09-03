@@ -4,4 +4,4 @@ njaxServices.factory(
 ['NJaxBuilder', function(NJaxBuilder){
     return NJaxBuilder.build({{{ njax_config_json }}});
 }]
-);git
+);

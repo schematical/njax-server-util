@@ -1,0 +1,21 @@
+<tr>
+    <% for(var name in _model.fields){  %>
+    <% if(_model.fields[name].type == 'md'){ %>
+    <td>
+        {{{ <%= name %> }}}
+    </td>
+    <% }else{ %>
+    <td>
+        {{ <%= name %> }}
+    </td>
+    <% } %>
+
+    <% } %>
+    <% if(_model.fields.namespace) { %>
+    <td>
+        <a class='btn btn-default btn-sm' href='{{ uri }}'>
+            View
+        </a>
+    </td>
+    <% } %>
+</tr>
