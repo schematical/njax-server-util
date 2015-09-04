@@ -1,7 +1,11 @@
-var njaxServices = angular.module('njax', []);
+window.njax_config = {{{ njax_config_json }}};
+NJax.Builder.build(window.njax_config)
+/*
+var njaxServices = angular.module('njax');
 njaxServices.factory(
 'NJaxConfig',
 ['NJaxBuilder', function(NJaxBuilder){
-    return NJaxBuilder.build({{{ njax_config_json }}});
+    return NJaxBuilder.build(window.njax_config);
 }]
 );
+*/
