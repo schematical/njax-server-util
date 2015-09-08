@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="571a40d7-f983-4025-8324-dfde988a6d2c" name="Default" comment="" />
+    <list default="true" id="571a40d7-f983-4025-8324-dfde988a6d2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/builders/route.js" afterPath="$PROJECT_DIR$/lib/modules/builders/route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="njax-util.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +30,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="330">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -47,7 +50,7 @@
       <file leaf-file-name="mongoose.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/modules/builders/mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.189189" vertical-offset="6447" max-vertical-offset="7020">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6447" max-vertical-offset="7020">
               <caret line="417" column="48" selection-start-line="417" selection-start-column="48" selection-end-line="417" selection-end-column="48" />
               <folding />
             </state>
@@ -57,18 +60,18 @@
       <file leaf-file-name="middleware.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/middleware.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="3150">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
               <caret line="60" column="20" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="njax_config_js.hjs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/templates/njax_config_js.hjs">
+      <file leaf-file-name="route.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/modules/builders/route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.051107325" vertical-offset="0" max-vertical-offset="587">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.2809773" vertical-offset="6394" max-vertical-offset="16440">
+              <caret line="437" column="40" selection-start-line="437" selection-start-column="40" selection-end-line="437" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -77,7 +80,7 @@
       <file leaf-file-name="socket.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/modules/builders/socket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.0" vertical-offset="327" max-vertical-offset="900">
+            <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="900">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
@@ -141,7 +144,6 @@
         <option value="/media/user1a/MainEnc/www/njax/lib/routes/trigger.js" />
         <option value="/media/user1a/MainEnc/www/njax-util/lib/modules/builders/index.js" />
         <option value="$PROJECT_DIR$/lib/modules/helpers.js" />
-        <option value="$PROJECT_DIR$/lib/modules/builders/route.js" />
         <option value="$PROJECT_DIR$/public/templates/njax_config.js.hjs" />
         <option value="$PROJECT_DIR$/lib/routes/middleware.js" />
         <option value="$PROJECT_DIR$/lib/routes/index.js" />
@@ -154,6 +156,7 @@
         <option value="$PROJECT_DIR$/lib/modules/builders/index.js" />
         <option value="$PROJECT_DIR$/public/gen/model/_edit.html" />
         <option value="$PROJECT_DIR$/lib/modules/builders/mongoose.js" />
+        <option value="$PROJECT_DIR$/lib/modules/builders/route.js" />
       </list>
     </option>
   </component>
@@ -161,7 +164,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
+    <option name="x" value="65" />
     <option name="y" value="1104" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
@@ -189,7 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,6 +324,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,15 +347,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.WWCore TestBed">
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -415,7 +418,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="1104" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="1104" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -424,19 +427,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -701,14 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/builders/route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="8344" max-vertical-offset="16395">
-          <caret line="576" column="47" selection-start-line="576" selection-start-column="45" selection-end-line="576" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes/errors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="921">
@@ -793,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/builders/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.0" vertical-offset="327" max-vertical-offset="900">
+        <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="900">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
@@ -817,16 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/builders/mongoose.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.189189" vertical-offset="6447" max-vertical-offset="7020">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6447" max-vertical-offset="7020">
           <caret line="417" column="48" selection-start-line="417" selection-start-column="48" selection-end-line="417" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="3150">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -835,6 +822,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.051107325" vertical-offset="0" max-vertical-offset="587">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/builders/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2809773" vertical-offset="6394" max-vertical-offset="16440">
+          <caret line="437" column="40" selection-start-line="437" selection-start-column="40" selection-end-line="437" selection-end-column="40" />
           <folding />
         </state>
       </provider>
