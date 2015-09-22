@@ -1,0 +1,16 @@
+<div>
+    <table ng-table="tableParams" class="table">
+        <tr ng-repeat="instance in collection">
+            <td>
+               <input type="checkbox" ng-model="instance._selected" />
+            </td>
+
+            <td data-title="'Name'" sortable="'name'">
+                <a ng-href="#{{ instance.uri }}" ng-click="selectInstance($event, instance);">
+                    {{instance.name}}
+                </a>
+            </td>
+        </tr>
+    </table>
+    <button class="btn btn-danger" ng-click="archiveSelected($event);">Archive</button>
+</div>

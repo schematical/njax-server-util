@@ -13,6 +13,7 @@
         </div>
     </div>
     <% }else if(_model.fields[name].type == 'md'){ %>
+    <label for="<%= name %>"><%= _model.fields[name].displayName %></label>
     <textarea id="<%= name %>" name="<%= name %>" class="form-control" rows="3"  ng-model="<%= _model.name %>.<%= name %>">}</textarea>
     <% }else if(_model.fields[name].type == 's3-asset'){ %>
     <div class="form-group">
