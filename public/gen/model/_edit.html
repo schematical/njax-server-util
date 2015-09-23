@@ -14,20 +14,19 @@
     </div>
     <% }else if(_model.fields[name].type == 'md'){ %>
     <label for="<%= name %>"><%= _model.fields[name].displayName %></label>
-    <textarea id="<%= name %>" name="<%= name %>" class="form-control" rows="3"  ng-model="<%= _model.name %>.<%= name %>">}</textarea>
+    <textarea id="<%= name %>" name="<%= name %>" class="form-control" rows="3"  ng-model="<%= _model.name %>.<%= name %>"></textarea>
     <% }else if(_model.fields[name].type == 's3-asset'){ %>
     <div class="form-group">
         <label for="<%= name %>"><%= _model.fields[name].displayName %></label>
         <input type="file" class="form-control" id="<%= name %>" name="<%= name %>" placeholder="Enter <%= _model.fields[name].displayName %>">
     </div>
     <% }else if(_model.fields[name].type == 'ref'){ %>
-    {{^ <%= _model.fields[name].ref %> }}
-    <div class="form-group">
+
+    <div class="form-group" ng-if="!<%= _model.fields[name].ref %>">
         <label for="<%= name %>"><%= _model.fields[name].displayName %></label>
         <select id="<%= name %>" name='<%= name %>' ng-model="<%= _model.name %>.<%= name %>">
         </select>
     </div>
-    {{/ <%= _model.fields[name].ref %> }}
     <% }else if(_model.fields[name].type == 'tpcd'){ %>
     <hr>
     <div class="form-group">
