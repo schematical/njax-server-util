@@ -1,6 +1,6 @@
 {
   "name": "njax-util",
-  "version": "0.0.5",
+  "version": "0.0.52",
   "private": false,
   "scripts": {
     "start": "node app.js"
@@ -25,6 +25,7 @@
     "request": "*",
     "serve-static": "*",
     "socket.io": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "xss-filters": "^1.2.6"
   }
 }
